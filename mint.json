@@ -5,6 +5,9 @@
     "dark": "/logo/qshop-dark.svg",
     "light": "/logo/qshop-light.svg"
   },
+  "feedback" : {
+    "thumbsRating": true
+  },
   "favicon": "/logo/favicon.svg",
   "colors": {
     "primary": "#FF9900",
