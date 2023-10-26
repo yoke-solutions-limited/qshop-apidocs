@@ -6,65 +6,12 @@
   },
   "servers": [
     {
-      "url": "http://{{q-shop-api-v2}}shops"
+      "url": "https://staging.qshop.ng/apiv2"
     },
     {
-      "url": "http://{{q-shop-api-v2}}auth"
+      "url": "https://qshop.ng/api"
     },
-    {
-      "url": "http://{{q-shop-api-v2}}roles"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}banks"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}users"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}orders"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}currencies"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}categories"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}locations"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}features"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}subscriptions"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}discounts"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}orderstatus"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}transactions"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}templates"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}config"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}domains"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}security"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}payments"
-    },
-    {
-      "url": "http://{{q-shop-api-v2}}webhook"
-    }
+ 
   ],
   "components": {
     "securitySchemes": {
