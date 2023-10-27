@@ -25,7 +25,7 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Get API key",
     "url": "https://app.qshop.tech"
   },
   "tabs": [
@@ -36,19 +36,24 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "API Reference",
+      "icon": "square-terminal",
+      "url": "api-reference"
     },
     {
-      "name": "Website",
-      "icon": "newspaper",
-      "url": "https://qshop.tech"
+      "name": "Learn by Videos",
+      "icon": "circle-play",
+      "url": "https://www.youtube.com/@qshopng"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Get instant help",
+      "icon": "discord",
+      "url": "https://calendly.com/qshop/qshop-store-setup"
+    },
+    {
+      "name": "FAQs",
+      "icon": "bullseye-pointer",
+      "url": "https://qshop.tech/faqs/"
     }
   ],
   "navigation": [
@@ -523,9 +528,10 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "instagram": "https://instagram.com/qshop.ng",
+    "facebook": "https://web.facebook.com/qshop.ng",
+    "twitter": "https://twitter.com/qshopnigeria",
+    "linkedin": "https://www.linkedin.com/company/qshop-tech/"
   },
   "openapi": ["api-reference/api-v2-openapi.yml"]
 }

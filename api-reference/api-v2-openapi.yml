@@ -4,8 +4,10 @@ info:
   version: 1.0.0
   contact: {}
 servers:
-  - url: http://localhost:3001/api/shops
-  - url: http://localhost:3001/api/auth
+  - url: http://staging.qshop.ng/apiv2
+    description: Staging server
+  - url: http://qshop.ng/api
+    description: Production server
 paths:
   /{shopId}/analytics:
     get:
