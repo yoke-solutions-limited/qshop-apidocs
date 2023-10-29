@@ -7,7 +7,7 @@ servers:
   - url: http://staging.qshop.ng/apiv2
     description: Staging server
   - url: http://qshop.ng/api
-    description: Production server
+    description:
 paths:
   /{shopId}/analytics:
     get:
@@ -9036,7 +9036,7 @@ paths:
         schema:
           type: string
           example: 629e06ac81da717af2ed2b98
-  /api/shops:
+  /shops:
     post:
       tags:
         - Shops
@@ -13866,7 +13866,7 @@ paths:
         schema:
           type: string
           example: 5ee6a1a5eea46308e8f84843
-  /api/locations/states/{stateId}/cities:
+  /locations/states/{stateId}/cities:
     get:
       tags:
         - Locations1

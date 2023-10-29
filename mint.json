@@ -30,7 +30,11 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "Storefront Api",
+      "url": "storefront-reference"
+    },
+    {
+      "name": "Admin Portal Api",
       "url": "api-reference"
     }
   ],
@@ -60,6 +64,116 @@
     {
       "group": "Get Started",
       "pages": ["introduction", "quickstart"]
+    },
+    {
+      "group": "Storefront Endpoints",
+      "pages": [
+        "storefront-reference/introduction",
+        {
+          "group": "Authentication",
+          "pages": [
+            "storefront-reference/authentication/login",
+            "storefront-reference/authentication/forgot-password",
+            "storefront-reference/authentication/request-otp",
+            "storefront-reference/authentication/verify-otp",
+            "storefront-reference/authentication/register-a-new-user"
+          ]
+        },
+        {
+          "group": "Shops",
+          "pages": [
+            "storefront-reference/shops/fetch-shop-by-slug",
+            "storefront-reference/shops/create-delivery-rate",
+            "storefront-reference/shops/apply-shipping-rate-to-cart"
+          ]
+        },
+        {
+          "group": "Products",
+          "pages": [
+            "storefront-reference/products/get-products"
+          ]
+        },
+        {
+          "group": "Store Locations",
+          "pages": [
+            "storefront-reference/store-locations/get-store-locations"
+          ]
+        },
+        {
+          "group": "Tags",
+          "pages": [
+            "storefront-reference/tags/get-tags"
+          ]
+        },
+        {
+          "group": "Product",
+          "pages": [
+            "storefront-reference/product/get-product-reviews",
+            "storefront-reference/product/add-product-to-wishlist",
+            "storefront-reference/product/get-product-by-slug"
+          ]
+        },
+        {
+          "group": "Payment Methods",
+          "pages": [
+            "storefront-reference/payment-methods/get-payment-methods"
+          ]
+        },
+        {
+          "group": "Cart",
+          "pages": [
+            "storefront-reference/cart/get-cart-id",
+            "storefront-reference/cart/create-cart",
+            "storefront-reference/cart/update-cart",
+            "storefront-reference/cart/delete-cart",
+            "storefront-reference/cart/update-cart-1",
+            "storefront-reference/cart/apply-discount-to-cart",
+            "storefront-reference/cart/remove-discount-from-cart"
+          ]
+        },
+        {
+          "group": "Coupons",
+          "pages": [
+            "storefront-reference/coupons/get-store-coupons"
+          ]
+        },
+        {
+          "group": "Orders",
+          "pages": [
+            "storefront-reference/shops/create-order",
+            "storefront-reference/orders/get-order"
+          ]
+        },
+        {
+          "group": "Locations",
+          "pages": [
+            "storefront-reference/locations/countries",
+            "storefront-reference/locations/states",
+            "storefront-reference/locations/fetch-geo-data-by-lat-&-lon",
+            "storefront-reference/locations/get-cities-by-state"
+          ]
+        },
+        {
+          "group": "Users",
+          "pages": [
+            "storefront-reference/users/get-user-details",
+            "storefront-reference/users/update-user-address"
+          ]
+        },
+        
+        {
+          "group": "Wishlist",
+          "pages": [
+            "storefront-reference/wishlist/get-customer-wishlist"
+          ]
+        },
+        {
+          "group": "Policy",
+          "pages": [
+            "storefront-reference/policy/get-shop-policies"
+          ]
+        }
+      ]
     },
     {
       "group": "API Documentation",
@@ -533,5 +647,5 @@
     "twitter": "https://twitter.com/qshopnigeria",
     "linkedin": "https://www.linkedin.com/company/qshop-tech/"
   },
-  "openapi": ["api-reference/api-v2-openapi.yml"]
+  "openapi": ["api-reference/api-v2-openapi.yml", "storefront-reference/openapi3_1.yaml"]
 }
